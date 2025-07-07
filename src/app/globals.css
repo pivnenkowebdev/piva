@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-red-100: #ED3C3C;
+  --color-blue-100: #54C3F3;
+  --color-blue-200: #02A1F0;
+  --color-gray-100: #E6E6E6;
+  --color-gray-200: #D9D9D9;
+  --color-yellow-100: #F7DF1E;
+  --color-yellow-200: #DBC405;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --text-tiny: 11px; 
+}
+
+body {
+
+}
