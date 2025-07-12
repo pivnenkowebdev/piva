@@ -1,6 +1,6 @@
 "use client"
 
-// import Image from "next/image";
+import Image from "next/image";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -52,7 +52,7 @@ export default function Hero() {
             <InfoList timeline={tl} index={16} className="mb-10" listOfItems={heroList}></InfoList>
             <CustomLink timeline={tl} index={26} href="https://t.me/pivnenkoweb" target="_blank" className="">Получить бесплатный урок</CustomLink>
         </div>
-        {/* <Image src="/ava.png" id="avatar" className="self-center" width={165} height={339} alt="avatar"/> */}
+        <Image src="./ava.png" id="avatar" className="self-center" width={165} height={339} alt="avatar"/>
     </div>
     )
 }

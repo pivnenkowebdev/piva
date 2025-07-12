@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/piva",
+  images: { unoptimized: true },
+  // basePath: "/piva",
   /* config options here */
   webpack(config) {
     // Grab the existing rule that handles SVG imports
